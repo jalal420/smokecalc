@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title> Simple Calculator </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="js/jquery.mobile-1.4.5.css">
+
+<script src="js/jquery.js">
+
+</script>
+
+<script src="js/jquery.mobile-1.4.5.js"></script>
+
+<!--https://www.w3schools.com/jsref/met_document_getelementbyid.asp-->
+<script src="js/js_OeJazE6mYtozn2iDnZSiyfcU773Kw4ZzV1GeBwuXZns.js"></script>
+<script src="js/js_gYWhuqN0Wsid8HOSk0yFzqMg-2NTv-xegwc2ACYMGws.js"></script>
+<script>document.createElement( "picture" );</script>
+<script src="js/js_GMg8Jb65TnICXQn_j2UaPiN72TFrGgIq3BGVbw9KUtg.js"></script>
+<script src="js/js_-B29PFX_qQYGN3DsHsdopbmDrq4mXEhltrOoyguW6Xc.js"></script>
+<script src="js/js_6Jo56tDz0iWaUQYMIcsVBXyQfogR7AhgfqrpETz_Rd4.js"></script>
+
+</head>
+
+<body>
+
+<div data-role="page" id="pageone" data-theme="b">
+
+  <div data-role="header">
+
+   <h1> Simple Calculator </h1>
+
+              <div data-role="navbar">
+
+                <ul>
+
+                  <li><a href="#pageone" class="ui-btn-active ui-state-persist" data-icon="home">Home</a></li>
+
+
+                  <li><a href="tel:114" data-icon="phone">Call</a></li>
+
+
+                  <li><a href="#pagethree" data-icon="info">Help</a></li>
+
+
+                </ul>
+
+              </div>
+
+  </div>
+<div role="main" calss="ui-content">
+<!-- Tool | Cost calculator -->
+<div class="tool tool--cost-calculator">
+
+  <!-- Tool inner -->
+  <div class="tool__inner">
+
+    <!-- Tool content -->
+    <div class="tool__content">
+      <div class="tool__section">
+
+
+                    <div class="tool__question">
+            <h3>How much do you pay for a pack of cigarettes?</h3>
+            <strong class="tool__question-value">20</strong>
+            <input autocomplete="off" type="range" name="tool__question-0" class="js-cost apply-currency" min="0" max="50" step="1" value="20" data-orientation="horizontal" />
+            <ul class="tool__question-axis">
+              <li><span>0</span></li><li><span>10</span></li><li><span>20</span></li><li><span>30</span></li><li><span>40</span></li><li><span>50</span></li>            </ul>
+          </div>
+                    <div class="tool__question">
+            <h3>How many cigarettes are in a pack?</h3>
+            <strong class="tool__question-value">25</strong>
+            <input autocomplete="off" type="range" name="tool__question-1" class="js-qty-in-pack" min="0" max="50" step="1" value="25" data-orientation="horizontal" />
+            <ul class="tool__question-axis">
+              <li><span>0</span></li><li><span>10</span></li><li><span>20</span></li><li><span>30</span></li><li><span>40</span></li><li><span>50</span></li>            </ul>
+          </div>
+                    <div class="tool__question">
+            <h3>How many cigarettes do you smoke in a day?</h3>
+            <strong class="tool__question-value">15</strong>
+            <input autocomplete="off" type="range" name="tool__question-2" class="js-qty-per-day" min="0" max="100" step="1" value="15" data-orientation="horizontal" />
+            <ul class="tool__question-axis">
+              <li><span>0</span></li><li><span>20</span></li><li><span>40</span></li><li><span>60</span></li><li><span>80</span></li><li><span>100</span></li>            </ul>
+          </div>
+                    <div class="tool__question">
+            <h3>How many years have you been smoking?</h3>
+            <strong class="tool__question-value">20</strong>
+            <input autocomplete="off" type="range" name="tool__question-3" class="js-years" min="0" max="100" step="1" value="20" data-orientation="horizontal" />
+            <ul class="tool__question-axis">
+              <li><span>0</span></li><li><span>20</span></li><li><span>40</span></li><li><span>60</span></li><li><span>80</span></li><li><span>100</span></li>            </ul>
+          </div>
+
+
+
+          <button type="submit" class="tool__calculate btn btn-primary js-cost-calculate">Calculate</button>
+              </div>
+      <div class="tool__section tool__result js-result">
+        <h3>Your results are in!</h3>
+        <dl class="tool__resultset">
+          <dt>Weekly cost:</dt>
+          <dd class="js-calc--weekly"></dd>
+          <dt>Monthly cost:</dt>
+          <dd class="js-calc--monthly"></dd>
+          <dt>Yearly cost:</dt>
+          <dd class="js-calc--yearly"></dd>
+          <dt>5 year cost:</dt>
+          <dd class="js-calc--5-year"></dd>
+          <dt>10 year cost:</dt>
+          <dd class="js-calc--10-year"></dd>
+        </dl>
+
+        <h3>Cost to date</h3>
+        <div class="tool__result-container">
+         
+          <strong class="js-calc--cost-to-date"></strong>
+          <button class="btn btn-primary btn--reset js-calc-reset">Reset</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- END Tool inner -->
+
+</div>
+<!-- END Tool | What's in a cigarette -->
+</div>
+  <div data-role="footer">
+
+   <h2> Homework </h2>
+</div>
+</div>
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
